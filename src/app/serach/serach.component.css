@@ -1,0 +1,62 @@
+.bootstrap-select .bs-select-form-control.dropdown-toggle {
+  display: block !important;
+  border: 1px solid #ced4da !important;
+  padding: 0.2rem 1rem !important;
+  outline: none !important;
+  box-shadow: none;
+}
+.bootstrap-select .dropdown-toggle .filter-option {
+  position: static;
+  top: 0;
+  left: 0;
+  float: left;
+  height: 100%;
+  width: 100%;
+  text-align: left;
+  overflow: hidden;
+  -webkit-box-flex: 0;
+  -webkit-flex: 0 1 auto;
+  -ms-flex: 0 1 auto;
+  flex: 0 1 auto;
+}
+.bootstrap-select .dropdown-toggle .filter-option-inner-inner {
+  overflow: hidden;
+}
+
+.bootstrap-select .filter-option-inner-inner {
+  color: #adb5bd;
+  font-size: 0.85rem;
+  font-weight: 300;
+  font-family: "Libre Franklin", sans-serif;
+  line-height: 1.5rem !important;
+  text-transform: capitalize;
+  -webkit-transform: translateY(1px);
+  transform: translateY(1px);
+  letter-spacing: 0;
+}
+.bootstrap-select button.dropdown-toggle::after {
+  border: none;
+  content: '\f078' !important;
+  font-family: 'Font Awesome\ 5 Free';
+  font-weight: 900;
+  font-size: 0.65rem;
+  vertical-align: middle !important;
+  padding-left: 0.1rem;
+  -webkit-transform: translateY(-50%);
+  transform: translateY(-50%);
+  position: absolute;
+  right: 1rem;
+  top: calc(50% + 2px);
+}
+.bootstrap-select>select {
+  position: absolute!important;
+  bottom: 0;
+  left: 50%;
+  display: block!important;
+  width: 0.5px!important;
+  height: 100%!important;
+  padding: 0!important;
+  opacity: 0!important;
+  border: none;
+  z-index: 0!important;
+}

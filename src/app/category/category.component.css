@@ -1,0 +1,20 @@
+ul{
+  margin-left: 15px;
+}
+a{
+  text-decoration: none;
+  color: #6c757d!important;
+}
+.custom-control {
+  position: relative;
+  display: block;
+  min-height: 1.5rem;
+  padding-left:10px;
+}
+.custom-control-label {
+  font-weight: 400;
+  line-height: 2.1em;
+  cursor: pointer;
+  padding-left: 10px;
+  color: #6c757d!important;
+}
